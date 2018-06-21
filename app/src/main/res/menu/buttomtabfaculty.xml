@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/leave"
+        android:enabled="true"
+        android:icon="@drawable/ic_business_leave_icon"
+        android:title="@string/title_leave"
+        app:showAsAction="ifRoom" />
+
+    <!--<item-->
+    <!--android:id="@+id/timetable"-->
+    <!--android:enabled="true"-->
+    <!--android:icon="@drawable/ic_dashboard_black_24dp"-->
+    <!--android:title="@string/title_timetable"-->
+    <!--app:showAsAction="ifRoom" />-->
+
+    <item
+        android:id="@+id/assignment"
+        android:enabled="true"
+        android:icon="@drawable/ic_assignment_black_24dp"
+        android:title="@string/title_Assignment"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/more"
+        android:enabled="true"
+        android:icon="@drawable/ic_more_horiz_black_24dp"
+        android:title="@string/title_more"
+        app:showAsAction="ifRoom" />
+
+</menu>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/OLMS.iml" filepath="$PROJECT_DIR$/OLMS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/customcalendar/customcalendar.iml" filepath="$PROJECT_DIR$/customcalendar/customcalendar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/customrecyclerviewandadapter/customrecyclerviewandadapter.iml" filepath="$PROJECT_DIR$/customrecyclerviewandadapter/customrecyclerviewandadapter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/data/data.iml" filepath="$PROJECT_DIR$/data/data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sdk-base-1.40.0/sdk-base-1.40.0.iml" filepath="$PROJECT_DIR$/sdk-base-1.40.0/sdk-base-1.40.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sdk-panowidget-1.40.0/sdk-panowidget-1.40.0.iml" filepath="$PROJECT_DIR$/sdk-panowidget-1.40.0/sdk-panowidget-1.40.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sdk-videowidget-1.40.0/sdk-videowidget-1.40.0.iml" filepath="$PROJECT_DIR$/sdk-videowidget-1.40.0/sdk-videowidget-1.40.0.iml" />
+    </modules>
+  </component>
+</project>

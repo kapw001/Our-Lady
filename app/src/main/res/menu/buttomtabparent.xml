@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/leave"
+        android:icon="@drawable/ic_business_leave_icon"
+        android:title="@string/title_leave" />
+
+    <!--<item-->
+        <!--android:id="@+id/studentexam"-->
+        <!--android:icon="@drawable/ic_assignment_black_24dp"-->
+        <!--android:title="@string/title_Exam1"-->
+        <!--app:showAsAction="ifRoom" />-->
+
+    <item
+        android:id="@+id/more"
+        android:icon="@drawable/ic_more_horiz_black_24dp"
+        android:title="@string/title_more" />
+
+</menu>

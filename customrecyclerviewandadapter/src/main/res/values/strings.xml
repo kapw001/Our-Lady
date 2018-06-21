@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyOwnRecyclerView</string>
+
+
+
+
+    <string name="nodata">There is no data .....Yooooo ! </string>
+</resources>

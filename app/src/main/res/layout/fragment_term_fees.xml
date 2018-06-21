@@ -1,0 +1,337 @@
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="false"
+    tools:context="com.pappayaed.ui.feedetails.TermFeesFragment">
+
+    <LinearLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
+
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/tablerowline">
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/tablerow"
+                        android:padding="10dp"
+                        android:text="Quarterly Receipt"
+                        android:textAlignment="center"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Small.Inverse"
+                        android:textSize="14sp" />
+
+
+                </TableRow>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1px"
+                    android:background="@color/black" />
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/student_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="Test"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Small.Inverse"
+                        android:textColor="@color/black"
+                        android:textSize="12sp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/student_grade"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="Test"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Small.Inverse"
+                        android:textColor="@color/black"
+                        android:textSize="12sp" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/student_id"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="Test"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Small.Inverse"
+                        android:textSize="12sp" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="center">
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="start"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="20dp"
+                        android:paddingTop="5dp"
+                        android:text="Due Date :"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Small.Inverse"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/due_date"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="end"
+                        android:paddingBottom="5dp"
+                        android:paddingRight="20dp"
+                        android:paddingTop="5dp"
+                        android:text="Test"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Small.Inverse"
+                        android:textSize="12sp" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="start"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="20dp"
+                        android:paddingTop="5dp"
+                        android:text="Tution Amount :"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Small.Inverse"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/tutitionamount"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="end"
+                        android:paddingBottom="5dp"
+                        android:paddingRight="20dp"
+                        android:paddingTop="5dp"
+                        android:text="Test"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Small.Inverse"
+                        android:textSize="12sp" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="start"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="20dp"
+                        android:paddingTop="5dp"
+                        android:text="Late Payment :"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Small.Inverse"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/latepayment"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="end"
+                        android:paddingBottom="5dp"
+                        android:paddingRight="20dp"
+                        android:paddingTop="5dp"
+                        android:text="Test"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Small.Inverse"
+                        android:textSize="12sp" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="start"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="20dp"
+                        android:paddingTop="5dp"
+                        android:text="Total Amount :"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Small.Inverse"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/totalamount"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="end"
+                        android:paddingBottom="5dp"
+                        android:paddingRight="20dp"
+                        android:paddingTop="5dp"
+                        android:text="Test"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Small.Inverse"
+                        android:textSize="12sp" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/status_name"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="start"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="20dp"
+                        android:paddingTop="5dp"
+                        android:text="Status :"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Small.Inverse"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/status"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="end"
+                        android:paddingBottom="5dp"
+                        android:paddingRight="20dp"
+                        android:paddingTop="5dp"
+                        android:text="Test"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Small.Inverse"
+                        android:textSize="12sp" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="center">
+
+
+                </TableRow>
+
+
+            </TableLayout>
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white">
+
+            <info.hoang8f.android.segmented.SegmentedGroup xmlns:segmentedgroup="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/segmented2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="horizontal"
+                android:paddingBottom="30dp"
+                android:paddingTop="30dp"
+                segmentedgroup:sc_border_width="2dp"
+                segmentedgroup:sc_corner_radius="0dp">
+
+                <RadioButton
+                    android:id="@+id/termfee"
+                    style="@style/RadioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:padding="12dp"
+                    android:text="Term Fee"
+                    android:textSize="12sp" />
+
+                <RadioButton
+                    android:id="@+id/history"
+                    style="@style/RadioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="12dp"
+                    android:text="History"
+                    android:textSize="12sp" />
+            </info.hoang8f.android.segmented.SegmentedGroup>
+
+        </RelativeLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerviewtermsandhistory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            android:paddingBottom="16dp" />
+
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

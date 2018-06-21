@@ -1,0 +1,162 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pappayaed.ui.feedetails.StandardAndFeeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/academic_year"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_weight="3"
+                android:background="@color/line2"
+                android:gravity="center"
+                android:text="Academic Year"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small.Inverse" />
+
+        </LinearLayout>
+
+
+        <RadioGroup
+            android:id="@+id/selectfeecollection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <android.support.v7.widget.AppCompatRadioButton
+                android:id="@+id/feecollection"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/fee_collection"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small.Inverse"
+                android:textColor="@drawable/fee_collection_selector"
+                app:buttonTint="@drawable/fee_collection_selector" />
+
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="match_parent" />
+
+            <android.support.v7.widget.AppCompatRadioButton
+                android:id="@+id/standardfee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.13"
+                android:checked="false"
+                android:text="@string/standard_fee"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small.Inverse"
+                android:textColor="@drawable/fee_collection_selector"
+                app:buttonTint="@drawable/fee_collection_selector" />
+        </RadioGroup>
+
+        <RelativeLayout
+            android:id="@+id/feecollectionlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:paddingBottom="16dp"
+            android:visibility="visible">
+
+
+            <TableLayout
+                android:id="@+id/tablerow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:background="@drawable/tablerowline">
+
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:textSize="14sp"
+                        android:text="Fee Receipt Details"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Small.Inverse" />
+
+
+                </TableRow>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1px"
+                    android:background="@color/black" />
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="center">
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/recyclerviewterms"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </TableRow>
+
+            </TableLayout>
+
+            <Button
+                android:id="@+id/generate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tablerow"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="25dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:text="Generate Receipt"
+                android:textAllCaps="false"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/standardfeelayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+            <Button
+                android:id="@+id/history"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="25dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:text="Standard Fee Collection"
+                android:textAllCaps="false"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

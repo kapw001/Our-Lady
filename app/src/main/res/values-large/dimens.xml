@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+
+    <!--    Login dimensiotion -->
+
+    <dimen name="login_logo_height">240dp</dimen>
+
+
+
+</resources>

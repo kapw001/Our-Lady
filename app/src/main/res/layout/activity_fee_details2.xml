@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.vlonjatg.progressactivity.ProgressLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/progressLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:emptyBackgroundColor="#FFFFFF"
+    app:errorBackgroundColor="#FFFFFF"
+    app:errorButtonBackgroundColor="@color/red"
+    app:errorButtonTextColor="#FFFFFF"
+    app:errorContentTextSize="6sp"
+    app:errorImageWidth="80dp"
+    app:errorTitleTextSize="8sp"
+    app:loadingBackgroundColor="#FFFFFF"
+    app:loadingProgressBarColor="@color/colorPrimary"
+    tools:context="com.pappayaed.ui.attendance.AttendanceActivity">
+
+    <fragment
+        android:id="@+id/studentFeeFragment"
+        android:name="com.pappayaed.ui.studentfee.StudentFeeFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="30dp" />
+
+    <FrameLayout
+        android:id="@+id/containerfeedetails"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</com.vlonjatg.progressactivity.ProgressLinearLayout>

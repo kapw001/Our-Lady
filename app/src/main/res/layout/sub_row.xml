@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.pappayaed.recyclerviewrows.SubRow xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="start"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:text="Academic Year :"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small.Inverse"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/Academic_Year"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:text="Test"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small.Inverse"
+                android:textSize="12sp" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="start"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:text="Category :"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small.Inverse"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/Category"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:paddingBottom="5dp"
+
+                android:paddingTop="5dp"
+                android:text="Test"
+
+                android:textAppearance="@style/TextAppearance.AppCompat.Small.Inverse"
+                android:textSize="12sp" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="start"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:text="Grade :"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small.Inverse"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/grade"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:text="Test"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small.Inverse"
+                android:textSize="12sp" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="start"
+                android:paddingBottom="5dp"
+
+                android:paddingTop="5dp"
+                android:text="Section :"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small.Inverse"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/Section"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:text="Test"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small.Inverse"
+                android:textSize="12sp" />
+
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="start"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:text="Subject :"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small.Inverse"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/Subject"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:text="Test"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small.Inverse"
+                android:textSize="12sp" />
+
+
+        </TableRow>
+
+    </TableLayout>
+
+    <View
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#20000000"/>
+
+</com.pappayaed.recyclerviewrows.SubRow>

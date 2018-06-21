@@ -1,0 +1,227 @@
+{
+  "jsonrpc": "2.0",
+  "id": null,
+  "result": {
+    "homework_list": [
+      {
+        "academic_year": "2018 - 2019",
+        "secondary_tutor_name": "Daisy",
+        "homework_ids": [
+          {
+            "my_homework": false,
+            "sub_primary_tutor_name": "Antony",
+            "date": "2018-06-14",
+            "description": false,
+            "sub_primary_tutor_id": 104,
+            "subject_id": 211,
+            "homework_subjects_id": 780,
+            "subject_name": "Tamil"
+          },
+          {
+            "my_homework": true,
+            "sub_primary_tutor_name": "Celine",
+            "date": "2018-06-14",
+            "description": false,
+            "sub_primary_tutor_id": 136,
+            "subject_id": 212,
+            "homework_subjects_id": 781,
+            "subject_name": "English"
+          },
+          {
+            "my_homework": true,
+            "sub_primary_tutor_name": "Celine",
+            "date": "2018-06-14",
+            "description": false,
+            "sub_primary_tutor_id": 136,
+            "subject_id": 213,
+            "homework_subjects_id": 782,
+            "subject_name": "Mathematics"
+          },
+          {
+            "my_homework": true,
+            "sub_primary_tutor_name": "Celine",
+            "date": "2018-06-14",
+            "description": false,
+            "sub_primary_tutor_id": 136,
+            "subject_id": 214,
+            "homework_subjects_id": 783,
+            "subject_name": "Science"
+          },
+          {
+            "my_homework": true,
+            "sub_primary_tutor_name": "Celine",
+            "date": "2018-06-14",
+            "description": false,
+            "sub_primary_tutor_id": 136,
+            "subject_id": 215,
+            "homework_subjects_id": 784,
+            "subject_name": "Social Science"
+          },
+          {
+            "my_homework": false,
+            "sub_primary_tutor_name": "Selin",
+            "date": "2018-06-14",
+            "description": false,
+            "sub_primary_tutor_id": 101,
+            "subject_id": 216,
+            "homework_subjects_id": 785,
+            "subject_name": "Computer Science"
+          },
+          {
+            "my_homework": true,
+            "sub_primary_tutor_name": "Celine",
+            "date": "2018-06-14",
+            "description": false,
+            "sub_primary_tutor_id": 136,
+            "subject_id": 217,
+            "homework_subjects_id": 786,
+            "subject_name": "E.V.S"
+          },
+          {
+            "my_homework": false,
+            "sub_primary_tutor_name": "Revathi",
+            "date": "2018-06-14",
+            "description": false,
+            "sub_primary_tutor_id": 131,
+            "subject_id": 218,
+            "homework_subjects_id": 787,
+            "subject_name": "P.T"
+          },
+          {
+            "my_homework": true,
+            "sub_primary_tutor_name": "Celine",
+            "date": "2018-06-14",
+            "description": false,
+            "sub_primary_tutor_id": 136,
+            "subject_id": 219,
+            "homework_subjects_id": 788,
+            "subject_name": "M.Sc / Cate"
+          }
+        ],
+        "primary_tutor_name": "Celine",
+        "section_id": 11,
+        "school_name": "Our Lady's Matriculation Higher Secondary School",
+        "section_name": "A",
+        "date": "2018-06-14",
+        "grade_id": 7,
+        "state": "draft",
+        "grade_name": "V",
+        "homework_id": 75,
+        "academic_year_id": 4,
+        "secondary_tutor_id": 95,
+        "primary_tutor_id": 136
+      },
+      {
+        "academic_year": "2018 - 2019",
+        "secondary_tutor_name": "Celine",
+        "homework_ids": [
+          {
+            "my_homework": false,
+            "sub_primary_tutor_name": "Mary",
+            "date": "2018-06-14",
+            "description": false,
+            "sub_primary_tutor_id": 107,
+            "subject_id": 220,
+            "homework_subjects_id": 789,
+            "subject_name": "Tamil"
+          },
+          {
+            "my_homework": false,
+            "sub_primary_tutor_name": "Daisy",
+            "date": "2018-06-14",
+            "description": false,
+            "sub_primary_tutor_id": 95,
+            "subject_id": 221,
+            "homework_subjects_id": 790,
+            "subject_name": "English"
+          },
+          {
+            "my_homework": false,
+            "sub_primary_tutor_name": "Daisy",
+            "date": "2018-06-14",
+            "description": false,
+            "sub_primary_tutor_id": 95,
+            "subject_id": 222,
+            "homework_subjects_id": 791,
+            "subject_name": "Mathematics"
+          },
+          {
+            "my_homework": false,
+            "sub_primary_tutor_name": "Daisy",
+            "date": "2018-06-14",
+            "description": false,
+            "sub_primary_tutor_id": 95,
+            "subject_id": 223,
+            "homework_subjects_id": 792,
+            "subject_name": "Science"
+          },
+          {
+            "my_homework": false,
+            "sub_primary_tutor_name": "Daisy",
+            "date": "2018-06-14",
+            "description": false,
+            "sub_primary_tutor_id": 95,
+            "subject_id": 224,
+            "homework_subjects_id": 793,
+            "subject_name": "Social Science"
+          },
+          {
+            "my_homework": true,
+            "sub_primary_tutor_name": "Celine",
+            "date": "2018-06-14",
+            "description": false,
+            "sub_primary_tutor_id": 136,
+            "subject_id": 225,
+            "homework_subjects_id": 794,
+            "subject_name": "Computer Science"
+          },
+          {
+            "my_homework": false,
+            "sub_primary_tutor_name": "Daisy",
+            "date": "2018-06-14",
+            "description": false,
+            "sub_primary_tutor_id": 95,
+            "subject_id": 226,
+            "homework_subjects_id": 795,
+            "subject_name": "E.V.S"
+          },
+          {
+            "my_homework": false,
+            "sub_primary_tutor_name": "Revathi",
+            "date": "2018-06-14",
+            "description": false,
+            "sub_primary_tutor_id": 131,
+            "subject_id": 227,
+            "homework_subjects_id": 796,
+            "subject_name": "P.T"
+          },
+          {
+            "my_homework": false,
+            "sub_primary_tutor_name": "Daisy",
+            "date": "2018-06-14",
+            "description": false,
+            "sub_primary_tutor_id": 95,
+            "subject_id": 228,
+            "homework_subjects_id": 797,
+            "subject_name": "M.Sc / Cate"
+          }
+        ],
+        "primary_tutor_name": "Daisy",
+        "section_id": 12,
+        "school_name": "Our Lady's Matriculation Higher Secondary School",
+        "section_name": "B",
+        "date": "2018-06-14",
+        "grade_id": 7,
+        "state": "draft",
+        "grade_name": "V",
+        "homework_id": 76,
+        "academic_year_id": 4,
+        "secondary_tutor_id": 136,
+        "primary_tutor_id": 95
+      }
+    ],
+    "login": "7299772207",
+    "password": "7299772207",
+    "user_type": "Teacher"
+  }
+}

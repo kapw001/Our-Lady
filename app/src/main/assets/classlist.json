@@ -1,0 +1,38 @@
+{
+  "jsonrpc": "2.0",
+  "id": null,
+  "result": {
+    "login": "7299772207",
+    "password": "7299772207",
+    "user_type": "Teacher",
+    "attendance_sheet_list": [{
+      "register_id": 11,
+      "section_id": 11,
+      "register_name": "V-A",
+      "school_name": "Our Lady's Matriculation Higher Secondary School",
+      "section_name": "A",
+      "total_absent": 1,
+      "attendance_sheet_id": 37,
+      "grade_id": 7,
+      "state": "marked",
+      "grade_name": "V",
+      "attendance_date": "2018-06-13",
+      "progress": 100.0,
+      "total_present": 32
+    }, {
+      "register_id": 12,
+      "section_id": 12,
+      "register_name": "V-B",
+      "school_name": "Our Lady's Matriculation Higher Secondary School",
+      "section_name": "B",
+      "total_absent": 0,
+      "attendance_sheet_id": 38,
+      "grade_id": 7,
+      "state": "pending",
+      "grade_name": "V",
+      "attendance_date": "2018-06-13",
+      "progress": 0.0,
+      "total_present": 0
+    }]
+  }
+}

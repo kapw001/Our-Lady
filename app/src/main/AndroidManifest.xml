@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pappayaed">
+
+    <!--
+ The video API works on Daydream-ready devices with Asynchronous
+        Reprojection on Android N+ and OpenGL ES 2+..
+    -->
+    <!-- <uses-sdk -->
+    <!-- android:minSdkVersion="24" -->
+    <!-- android:targetSdkVersion="24" /> -->
+
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+    <!-- <uses-feature -->
+    <!-- android:glEsVersion="0x00020000" -->
+    <!-- android:required="true" /> -->
+
+
+    <!-- &lt;!&ndash; Make accelerometer and gyroscope hard requirements for good head tracking. &ndash;&gt; -->
+    <!-- <uses-feature -->
+    <!-- android:name="android.hardware.sensor.accelerometer" -->
+    <!-- android:required="true" /> -->
+    <!-- <uses-feature -->
+    <!-- android:name="android.hardware.sensor.gyroscope" -->
+    <!-- android:required="true" /> -->
+
+
+    <!-- &lt;!&ndash; Indicates use of Android's VR-mode, available only on Android N+. &ndash;&gt; -->
+    <!-- <uses-feature -->
+    <!-- android:name="android.software.vr.mode" -->
+    <!-- android:required="true" /> -->
+    <!-- &lt;!&ndash; Indicates use of VR features that are available only on Daydream-ready devices. &ndash;&gt; -->
+    <!-- <uses-feature -->
+    <!-- android:name="android.hardware.vr.high_performance" -->
+    <!-- android:required="true" /> -->
+
+    <permission
+        android:name="com.pappayaed.googlemapsv2.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.pappayaed.googlemapsv2.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <!-- Required to show current location -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <application
+        android:name=".App.App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ui.login.LoginActivity"
+            android:label="@string/login"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.main.MainActivity"
+            android:label="@string/title_activity_main"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.splash.FullscreenActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.showprofile.ProfileActivity"
+            android:label="@string/profile"
+            android:parentActivityName=".ui.showprofile.StudentProfileViewActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.showprofile.StudentProfileViewActivity" />
+        </activity>
+        <activity
+            android:name=".ui.showprofile.StudentProfileViewActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <activity
+            android:name=".ui.assignmentdownload.AttachmentListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ui.showfeedetails.FeeDetailsActivity" android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.homework.HomeWorkActivity"
+            android:theme="@style/AppTheme.NoActionBar" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.webview.WebviewActivity" android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.parentprofile.ParentActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ui.studentprofile.StudentProfileActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ui.circular.CircularActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.attendance.AttendanceActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.feedetails.FeeDetailsActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".ui.feedetails.TermFeesActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".ui.feedetails.StandardFeesActivity" android:screenOrientation="portrait"/>
+
+        <service
+            android:name=".dowloadservices.DownloadService"
+            android:exported="false" />
+
+        <!-- Firebase Notifications -->
+        <service android:name=".pushnotification.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".pushnotification.MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <!-- ./Firebase Notifications -->
+
+        <activity android:name=".ui.heartrate.HeartRateActivity" android:screenOrientation="portrait"/>
+        <!--
+     Set custom default icon. This is used when no icon is set for incoming notification messages.
+     See README(https://goo.gl/l4GJaQ) for more.
+        -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@mipmap/ic_launcher" />
+        <!--
+             Set color used with incoming notification messages. This is used when no color is set for the incoming
+             notification message. See README(https://goo.gl/6BKBk7) for more.
+        -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorAccent" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id"
+            android:value="@string/default_notification_channel_id" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="@string/google_maps_api_key" />
+
+        <activity android:name=".ui.whereisstudent.WhereIsStudentActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.pappayaed.TARGET_NOTIFICATION" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".mytestpackage.DownloadTestActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".mytestpackage.MyService"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name=".ui.heartrate.HeartRateIntentService"
+            android:exported="false" />
+
+        <activity android:name=".ui.whereismystudent.WhereisMyStudentActivity" android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.homework.UpdateHomeWorkActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustResize"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,84 @@
+<com.vlonjatg.progressactivity.ProgressFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:progressActivity="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/progressLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    app:emptyBackgroundColor="#FFFFFF"
+    app:errorBackgroundColor="#FFFFFF"
+    app:errorButtonBackgroundColor="@color/red"
+    app:errorButtonTextColor="#FFFFFF"
+    app:errorContentTextSize="6sp"
+    app:errorImageWidth="80dp"
+    app:errorTitleTextSize="8sp"
+    app:loadingBackgroundColor="#FFFFFF"
+    app:loadingProgressBarColor="@color/colorPrimary"
+    tools:context=".ui.circular.CircularFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/segmenttap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white">
+
+            <info.hoang8f.android.segmented.SegmentedGroup xmlns:segmentedgroup="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/segmented2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="horizontal"
+                android:paddingBottom="30dp"
+                android:paddingTop="30dp"
+                segmentedgroup:sc_border_width="2dp"
+                segmentedgroup:sc_corner_radius="0dp">
+
+                <RadioButton
+                    android:id="@+id/circular"
+                    style="@style/RadioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:padding="12dp"
+                    android:text="Circular"
+                    android:textSize="12sp" />
+
+                <RadioButton
+                    android:id="@+id/homework"
+                    style="@style/RadioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="12dp"
+                    android:text="Home Work"
+                    android:textSize="12sp" />
+            </info.hoang8f.android.segmented.SegmentedGroup>
+
+        </RelativeLayout>
+
+
+        <View
+            android:id="@+id/lineView"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_below="@+id/segmenttap"
+            android:background="@color/colorBackgroundLine" />
+
+        <fragment
+            android:id="@+id/calendarAndListFragment"
+            android:name="com.pappayaed.ui.calendarandlistview.CalendarAndListFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/lineView"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" />
+
+
+    </RelativeLayout>
+
+
+</com.vlonjatg.progressactivity.ProgressFrameLayout>

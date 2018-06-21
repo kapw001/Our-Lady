@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <declare-styleable name="EmptyView">
+    <!-- Shared attributes -->
+    <attr name="ev_transition">
+      <enum name="slide" value="1"/>
+      <enum name="explode" value="2"/>
+      <enum name="fade" value="3"/>
+      <enum name="auto" value="4"/>
+    </attr>
+    <attr name="ev_gravity">
+      <enum name="top" value="48"/>
+      <enum name="center" value="17"/>
+      <enum name="bottom" value="80"/>
+    </attr>
+    <attr format="reference" name="ev_font"/>
+    <attr format="dimension" name="ev_titleTextSize"/>
+    <attr format="dimension" name="ev_textSize"/>
+    <attr format="dimension" name="ev_buttonTextSize"/>
+
+    <!-- Loading state attributes -->
+    <attr name="ev_loading">
+      <enum name="circular" value="1"/>
+    </attr>
+    <attr format="string" name="ev_loading_title"/>
+    <attr format="color" name="ev_loading_titleTextColor"/>
+    <attr format="string" name="ev_loading_text"/>
+    <attr format="color" name="ev_loading_textColor"/>
+    <attr format="reference" name="ev_loading_drawable"/>
+    <attr format="color" name="ev_loading_drawableTint"/>
+    <attr format="color" name="ev_loading_backgroundColor"/>
+
+    <!-- Empty state attributes -->
+    <attr format="string" name="ev_empty_title"/>
+    <attr format="color" name="ev_empty_titleTextColor"/>
+    <attr format="string" name="ev_empty_text"/>
+    <attr format="color" name="ev_empty_textColor"/>
+    <attr format="string" name="ev_empty_button"/>
+    <attr format="color" name="ev_empty_buttonTextColor"/>
+    <attr format="color" name="ev_empty_buttonBackgroundColor"/>
+    <attr format="reference" name="ev_empty_drawable"/>
+    <attr format="color" name="ev_empty_drawableTint"/>
+    <attr format="color" name="ev_empty_backgroundColor"/>
+
+    <!-- Error state attributes -->
+    <attr format="string" name="ev_error_title"/>
+    <attr format="color" name="ev_error_titleTextColor"/>
+    <attr format="string" name="ev_error_text"/>
+    <attr format="color" name="ev_error_textColor"/>
+    <attr format="string" name="ev_error_button"/>
+    <attr format="color" name="ev_error_buttonTextColor"/>
+    <attr format="color" name="ev_error_buttonBackgroundColor"/>
+    <attr format="reference" name="ev_error_drawable"/>
+    <attr format="color" name="ev_error_drawableTint"/>
+    <attr format="color" name="ev_error_backgroundColor"/>
+  </declare-styleable>
+
+</resources>

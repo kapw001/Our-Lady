@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.pappayaed.recyclerviewrows.CustomProfileRow xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingBottom="8dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp">
+
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha=".35"
+        app:srcCompat="@drawable/ic_person_outline_black_24dp" />
+
+    <View
+        android:layout_width="10dp"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:text="Name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Inverse"
+        android:textSize="12sp" />
+
+    <View
+        android:layout_width="10dp"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/title_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="end|center_vertical"
+        android:text="Name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small.Inverse"
+        android:textSize="12sp" />
+
+</com.pappayaed.recyclerviewrows.CustomProfileRow>

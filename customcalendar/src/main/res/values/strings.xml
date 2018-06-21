@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Custom Calendar</string>
+
+    <string name="current_date">June, 2016</string>
+    <string name="add_event">ADD CALENDAR EVENT</string>
+    <!--<string name="sun">SUN</string>-->
+    <!--<string name="mon">MON</string>-->
+    <!--<string name="tue">TUE</string>-->
+    <!--<string name="wed">WED</string>-->
+    <!--<string name="thu">THU</string>-->
+    <!--<string name="fri">FRI</string>-->
+    <!--<string name="sat">SAT</string>-->
+
+    <string name="sun">S</string>
+    <string name="mon">M</string>
+    <string name="tue">T</string>
+    <string name="wed">W</string>
+    <string name="thu">T</string>
+    <string name="fri">F</string>
+    <string name="sat">S</string>
+
+    <string name="last_date">30</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <style name="EmptyTextAppearance"/>
+
+  <style name="EmptyTextAppearance.Title" parent="TextAppearance.AppCompat.Title"/>
+
+  <style name="EmptyTextAppearance.Body" parent="TextAppearance.AppCompat.Subhead"/>
+
+  <style name="EmptyTextAppearance.Button" parent="TextAppearance.AppCompat.Button"/>
+
+</resources>

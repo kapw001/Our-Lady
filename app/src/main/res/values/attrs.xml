@@ -1,0 +1,44 @@
+<resources>
+
+    <!-- Declare custom theme attributes that allow changing which styles are
+         used for button bars depending on the API level.
+         ?android:attr/buttonBarStyle is new as of API 11 so this is
+         necessary to support previous API levels. -->
+    <declare-styleable name="ButtonBarContainerTheme">
+        <attr name="metaButtonBarStyle" format="reference" />
+        <attr name="metaButtonBarButtonStyle" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="PieChart">
+        <attr name="autoCenterPointerInSlice" format="boolean" />
+        <attr name="highlightStrength" format="float" />
+        <attr name="labelColor" format="color" />
+        <attr name="labelHeight" format="dimension" />
+        <attr name="labelPosition" format="enum">
+            <enum name="left" value="0" />
+            <enum name="right" value="1" />
+        </attr>
+        <attr name="labelWidth" format="dimension" />
+        <attr name="labelY" format="dimension" />
+        <attr name="pieRotation" format="integer" />
+        <attr name="pointerRadius" format="dimension" />
+        <attr name="showText" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomProfileRow">
+        <attr name="img" format="reference" />
+        <attr name="isbold" format="boolean" />
+        <attr name="titleText" format="string" localization="suggested" />
+        <attr name="title" format="string" localization="suggested" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomTextView">
+        <attr name="customFont" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="LetterSpacingTextView">
+        <attr name="space" format="float" />
+        <attr name="text" format="string" />
+    </declare-styleable>
+
+</resources>

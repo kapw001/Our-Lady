@@ -1,0 +1,230 @@
+<resources>
+    <string name="app_name">Our Lady</string>
+    <string name="reset_button">Reset</string>
+    <string name="name">Email or Phone Number</string>
+    <string name="password">Password</string>
+    <string name="login">Log In</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_leave">Leave</string>
+    <string name="title_Assignment">Assignment</string>
+    <string name="title_more">Fee</string>
+    <!--<string name="title_more">Fee Receipt</string>-->
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="schoolid">School Id</string>
+    <string name="setschoolid">Set School Id</string>
+    <string name="setschoolmsg"><u>Set your school id </u></string>
+
+    <string name="google_maps_api_key">AIzaSyDWHMiBFKot6LOiOAiyFS1-7XolKU-qRfc</string>
+    <string name="default_notification_channel_id">gems_chennal_notification</string>
+
+
+    <string name="title">Machu Picchu\nWorld Heritage Site</string>
+    <string name="subtitle">The world-famous citadel of the Andes</string>
+    <string name="paragraph1">Machu Picchu is an Incan citadel set high in the Andes Mountains in
+    Peru, above the Urubamba River valley.</string>
+
+    <string name="image_caption">A 360 panoramic view of Machu Picchu</string>
+
+    <string name="paragraph2">It is situated on a mountain ridge above the Sacred Valley which is 80
+    kilometres (50 mi) northwest of Cuzco and through which the Urubamba River flows.
+    Most archaeologists believe that Machu Picchu was built as an estate for the Inca emperor
+    Pachacuti (1438–1472). Often mistakenly referred to as the Lost City of the Incas,
+    it is the most familiar icon of Inca civilization.
+
+\n\nThe Incas built the estate around 1450, but abandoned it a century later at the time of the
+    Spanish Conquest. Although known locally, it was not known to the Spanish during the colonial
+    period and remained unknown to the outside world before being brought to international attention
+    in 1911 by the American historian Hiram Bingham. Most of the outlying buildings have been
+    reconstructed in order to give tourists a better idea of what the structures originally
+    looked like. By 1976, 30% of Machu Picchu had been restored; restoration continues today.
+
+\n\nMachu Picchu was declared a Peruvian Historical Sanctuary in 1981 and a UNESCO World Heritage
+    Site in 1983. In 2007, Machu Picchu was voted one of the New Seven Wonders of the World in a
+    worldwide Internet poll.
+  </string>
+
+    <string name="source">Source &lt;a href="https://en.wikipedia.org/wiki/Machu_Picchu">Wikipedia&lt;/a></string>
+
+    <string-array name="array_name">
+        <item>Array Item One</item>
+        <item>Array Item Two</item>
+        <item>Array Item Three</item>
+    </string-array>
+
+    <string-array name="list">
+        <item>6:00 AM</item>
+        <item>6:30 AM</item>
+        <item>7:00 AM</item>
+        <item>7:30 AM</item>
+        <item>8:00 AM</item>
+        <item>8:30 AM</item>
+        <item>9:00 AM</item>
+        <item>9:30 AM</item>
+        <item>10:00 AM</item>
+        <item>10:30 AM</item>
+        <item>11:00 AM</item>
+        <item>11:30 AM</item>
+        <item>12:00 PM</item>
+        <item>12:30 PM</item>
+        <item>1:00 PM</item>
+        <item>1:30 PM</item>
+        <item>2:00 PM</item>
+        <item>2:30 PM</item>
+        <item>3:00 PM</item>
+        <item>3:30 PM</item>
+        <item>4:00 PM</item>
+        <item>4:30 PM</item>
+        <item>5:00 PM</item>
+        <item>5:30 PM</item>
+        <item>6:00 PM</item>
+        <item>6:30 PM</item>
+        <item>7:00 PM</item>
+        <item>7:30 PM</item>
+        <item>8:00 PM</item>
+        <item>8:30 PM</item>
+        <item>9:00 PM</item>
+        <item>9:30 PM</item>
+        <item>10:00 PM</item>
+        <item>10:30 PM</item>
+        <item>10:30 PM</item>
+        <item>11:30 PM</item>
+
+    </string-array>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_item_list">Items</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="profile">Profile</string>
+    <string name="title_activity_test">TestActivity</string>
+
+
+    <string name="font_family_light">sans-serif-light</string>
+    <string name="font_family_medium">sans-serif-medium</string>
+    <string name="font_family_regular">sans-serif</string>
+    <string name="font_family_condensed">sans-serif-condensed</string>
+    <string name="font_family_black">sans-serif-black</string>
+    <string name="font_family_thin">sans-serif-thin</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="title_timetable">Timetable</string>
+    <string name="title_Exam">Exam</string>
+    <string name="title_Exam1">Student Exam</string>
+    <string name="title_fee">Strudent Fee</string>
+    <string name="title_attendance">Attendance</string>
+    <string name="termfee">Term Fee</string>
+    <string name="payhistory">Payment History</string>
+    <string name="title_Missleading">Misleading</string>
+    <string name="title_circular">Events</string>
+    <!--<string name="title_circular">Circular</string>-->
+    <string name="title_homework">Home Work</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_childern">Attendance</string>
+    <string name="title_activity_main2">Circular And Homework</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="msg_downloading">Downloading</string>
+    <string name="camera_and_location_rationale">Please provide location permission to proceed</string>
+    <!--<string name="intro"><![CDATA[Welcome to \nOur Lady]]></string>-->
+    <string name="intro"><![CDATA[Welcome to Our Lady]]></string>
+    <string name="title_activity_circular">CircularActivity</string>
+    <string name="fee_collection">Fee Collection</string>
+    <string name="standard_fee">Standard Fee</string>
+    <string name="title_heartrate">Heart Rate</string>
+    <string name="title_whereismystudent">Location</string>
+
+</resources>

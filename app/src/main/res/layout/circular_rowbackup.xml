@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:minHeight="80dp"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:background="@color/red"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/txtDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="2\nTuesSay"
+            android:textColor="@color/white" />
+
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/fullDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="16dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small.Inverse"
+            tools:text="Date" />
+
+        <ImageView
+            android:id="@+id/attachment"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="end"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/ic_attachment_black_24dp" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fullDate"
+            android:layout_marginTop="10dp"
+            android:gravity="start|center"
+            android:lineSpacingExtra="2dp"
+            android:paddingLeft="16dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small.Inverse"
+            android:textSize="12dp"
+            tools:text="Student Nameh" />
+
+    </RelativeLayout>
+
+</LinearLayout>

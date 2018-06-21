@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#6287E6</color>
+    <color name="colorPrimaryDark">#6287E6</color>
+    <color name="colorPrimaryLight">#6287E6</color>
+    <color name="colorAccent">#6287E6</color>
+
+    <!--<color name="colorPrimary">#4CAF50</color>-->
+    <!--<color name="colorPrimaryDark">#388E3C</color>-->
+    <!--<color name="colorAccent">#FF5722</color>-->
+    <!--<color name="colorPrimary">#3F51B5</color>-->
+    <!--<color name="colorPrimaryDark">#303F9F</color>-->
+    <!--<color name="colorAccent">#FF4081</color>-->
+    <!--<color name="colorPrimary">#aa3939</color>-->
+    <!--<color name="colorPrimaryDark">#0000</color>-->
+    <!--<color name="colorAccent">#FF4081</color>-->
+    <color name="white">#FFFFFF</color>
+    <color name="colorBackground">#20000000</color>
+    <color name="colorBackgroundLine">#20000000</color>
+    <color name="background">#f9f9f9</color>
+    <color name="btncolor">#555555</color>
+    <color name="btncolorselected">#80F06363</color>
+    <!--<color name="btncolorselected">#888888</color>-->
+    <color name="black">#000000</color>
+    <color name="blackradio">#60000000</color>
+    <color name="line">#EBEBEB</color>
+    <color name="line2">#d3d3d3</color>
+    <color name="line5">#60000000</color>
+    <color name="line6">#80000000</color>
+    <color name="textplaceholdercolor">#EBEBEB</color>
+    <color name="textcolor">#000000</color>
+    <color name="txt">#545454</color>
+    <color name="tabcolor">#7c7cd1</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="red">#F06363</color>
+    <color name="tablerow">#60F0F0F0</color>
+
+    <color name="line4">#20000000</color>
+
+
+    <color name="endcolor">#6287E6</color>
+    <color name="startcolor">#20DEFA</color>
+    <color name="pink">#E21D61</color>
+
+
+    <color name="dark_grey">#424242</color>
+    <color name="navigation_background">#F3F3F3</color>
+    <color name="medium_grey">#9E9E9E</color>
+    <color name="button_grey">#757575</color>
+    <color name="textLight">#555</color>
+    <color name="textDark">#222</color>
+    <!--//piechart-->
+    <color name="seafoam">#ffc6f9e5</color>
+    <color name="chartreuse">#ffb6e9b5</color>
+    <color name="emerald">#ffa6d9b5</color>
+    <color name="bluegrass">#ff96c9b5</color>
+    <color name="turquoise">#ff86b9b5</color>
+    <color name="slate">#ff76a9b5</color>
+
+    <color name="rowcolor">#FEFEFE</color>
+    <color name="rowbuttonstatscolor">#F7F7F7</color>
+
+    <color name="reject">#FA3D2D</color>
+
+
+    <color name="blue">#2D4ED9</color>
+    <!--<color name="red">#F06363</color>-->
+    <color name="yellow">#DE9D22</color>
+    <color name="green">#35C196</color>
+    <color name="darkGray">#696464</color>
+    <color name="lightGray">#847A7A</color>
+    <color name="lightBlue">#2D4ED9</color>
+
+
+    <color name="bright_pink">#FF007F</color>
+    <!--<color name="red">#FF0000</color>-->
+    <color name="orange">#FF7F00</color>
+    <!--<color name="yellow">#FFFF00</color>-->
+    <!--<color name="chartreuse">#7FFF00</color>-->
+    <!--<color name="green">#00FF00</color>-->
+    <color name="spring_green">#00FF7F</color>
+    <color name="cyan">#00FFFF</color>
+    <color name="azure">#007FFF</color>
+    <!--<color name="blue">#0000FF</color>-->
+    <color name="violet">#7F00FF</color>
+    <color name="magenta">#FF00FF</color>
+
+    <array name="rainbow">
+
+        <item>@color/material_red500</item>
+        <item>@color/material_purple500</item>
+        <item>@color/material_deeppurple500</item>
+        <item>@color/material_blue500</item>
+        <item>@color/material_lightblue500</item>
+        <item>@color/material_indigo500</item>
+        <item>@color/material_cyan500</item>
+        <item>@color/magenta</item>
+        <!--<item>@color/material_green500</item>-->
+        <!--<item>@color/material_lime500</item>-->
+        <item>@color/material_yellow500</item>
+        <item>@color/material_pink500</item>
+        <item>@color/material_amber500</item>
+        <item>@color/material_orange500</item>
+        <item>@color/material_deeporange500</item>
+        <item>@color/material_brown500</item>
+
+
+        <!--<item>@color/bright_pink</item>-->
+        <!--&lt;!&ndash;<item>@color/red</item>&ndash;&gt;-->
+        <!--<item>@color/orange</item>-->
+        <!--<item>@color/yellow</item>-->
+        <!--<item>@color/chartreuse</item>-->
+        <!--&lt;!&ndash;<item>@color/green</item>&ndash;&gt;-->
+        <!--&lt;!&ndash;<item>@color/spring_green</item>&ndash;&gt;-->
+        <!--&lt;!&ndash;<item>@color/cyan</item>&ndash;&gt;-->
+        <!--<item>@color/azure</item>-->
+        <!--<item>@color/blue</item>-->
+        <!--<item>@color/violet</item>-->
+        <!--<item>@color/magenta</item>-->
+    </array>
+
+</resources>

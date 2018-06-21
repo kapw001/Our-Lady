@@ -1,0 +1,123 @@
+{
+  "jsonrpc": "2.0",
+  "id": null,
+  "result": {
+    "teacher_id": 136,
+    "teacher_middle_name": "",
+    "user_id": 45,
+    "rfidcard_no": "44",
+    "attendance": [{
+      "out_time": "2018-06-13 10:31:49",
+      "employee_id": "Celine",
+      "attendance_status": "Present",
+      "in_time": "2018-06-13 02:52:40",
+      "attendance_date": "2018-06-13",
+      "time_diff": 7.6525
+    }, {
+      "out_time": "2018-06-11 02:47:18",
+      "employee_id": "Celine",
+      "attendance_status": "Present",
+      "in_time": "2018-06-11 02:47:18",
+      "attendance_date": "2018-06-11",
+      "time_diff": ""
+    }, {
+      "out_time": "",
+      "employee_id": "Celine",
+      "attendance_status": "Present",
+      "in_time": "2018-06-09 02:42:53",
+      "attendance_date": "2018-06-09",
+      "time_diff": ""
+    }],
+    "subjects": [{
+      "academic_year": "2018 - 2019",
+      "grade": "V",
+      "section": "A",
+      "edu_structure": "Primary",
+      "sub_primary_tutor": "Celine",
+      "subject": "English"
+    }, {
+      "academic_year": "2018 - 2019",
+      "grade": "V",
+      "section": "A",
+      "edu_structure": "Primary",
+      "sub_primary_tutor": "Celine",
+      "subject": "Mathematics"
+    }, {
+      "academic_year": "2018 - 2019",
+      "grade": "V",
+      "section": "A",
+      "edu_structure": "Primary",
+      "sub_primary_tutor": "Celine",
+      "subject": "Science"
+    }, {
+      "academic_year": "2018 - 2019",
+      "grade": "V",
+      "section": "A",
+      "edu_structure": "Primary",
+      "sub_primary_tutor": "Celine",
+      "subject": "Social Science"
+    }, {
+      "academic_year": "2018 - 2019",
+      "grade": "V",
+      "section": "A",
+      "edu_structure": "Primary",
+      "sub_primary_tutor": "Celine",
+      "subject": "E.V.S"
+    }, {
+      "academic_year": "2018 - 2019",
+      "grade": "V",
+      "section": "A",
+      "edu_structure": "Primary",
+      "sub_primary_tutor": "Celine",
+      "subject": "M.Sc / Cate"
+    }, {
+      "academic_year": "2018 - 2019",
+      "grade": "V",
+      "section": "B",
+      "edu_structure": "Primary",
+      "sub_primary_tutor": "Celine",
+      "subject": "Computer Science"
+    }],
+    "teacher_last_name": "Priscilla",
+    "qualification": [{
+      "university": "BIIT",
+      "institute_of_study": "BIIT",
+      "year_of_completion": "2012-06-13",
+      "degree": "MCA"
+    }],
+    "general_information": {
+      "category": "teaching",
+      "city": "chennai",
+      "staff_id": "",
+      "designation": "B.T Assistant",
+      "zip": "600031",
+      "mobile": "7299772207",
+      "street1": "no 74, mc nichols road",
+      "street2": "",
+      "total_year_of_service": "",
+      "phone": "4428360490",
+      "state": "Tamil Nadu",
+      "date_of_joining": "2018-06-04",
+      "country": "India",
+      "department": "Teaching",
+      "employee_type": "New appointment",
+      "email": false
+    },
+    "personal_information": {
+      "marital": "",
+      "birthday": "2018-06-03",
+      "gross_salary": "",
+      "total_salary": "",
+      "driving_license": "",
+      "user_id": "Celine",
+      "gender": "female",
+      "age": "",
+      "country_id": "India",
+      "religion": "Christian",
+      "pf": "",
+      "aadhaar_no": "578742476674",
+      "caste": "BC"
+    },
+    "teacher_first_name": "Celine"
+  }
+}

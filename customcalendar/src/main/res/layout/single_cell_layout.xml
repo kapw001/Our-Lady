@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/calendar_date_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:padding="8dp"
+        android:text="@string/last_date"
+        android:textColor="@color/colorBlack"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <!--<LinearLayout-->
+    <!--android:id="@+id/event_wrapper"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_margin="4dp"-->
+    <!--android:gravity="right"-->
+    <!--android:orientation="horizontal">-->
+
+    <View
+        android:id="@+id/event_id"
+        android:layout_width="6dp"
+        android:layout_height="6dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="4dp"
+        android:background="@drawable/round"
+        android:visibility="visible" />
+    <!--</LinearLayout>-->
+</RelativeLayout>

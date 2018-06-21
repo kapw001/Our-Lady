@@ -1,0 +1,193 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pappayaed.ui.parentprofile.AttendanceCalendarFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <calendar.android.com.customcalendar.CalendarCustomViewRecycler
+                android:id="@+id/customCalendar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp" />
+
+
+            <RelativeLayout
+                android:id="@+id/content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp">
+
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:gravity="center">
+
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="start"
+                            android:paddingBottom="5dp"
+                            android:paddingTop="5dp"
+                            android:text="Attendance Status :"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Small.Inverse"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/attstatus"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="end"
+                            android:paddingBottom="5dp"
+                            android:paddingTop="5dp"
+                            android:text="Test"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Small.Inverse"
+                            android:textSize="12sp" />
+
+
+                    </TableRow>
+
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:gravity="center">
+
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="start"
+                            android:paddingBottom="5dp"
+                            android:paddingTop="5dp"
+                            android:text="In-time :"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Small.Inverse"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/intime"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="end"
+                            android:paddingBottom="5dp"
+                            android:paddingTop="5dp"
+                            android:text="Test"
+
+                            android:textAppearance="@style/TextAppearance.AppCompat.Small.Inverse"
+                            android:textSize="12sp" />
+
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:gravity="center">
+
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="start"
+                            android:paddingBottom="5dp"
+                            android:paddingTop="5dp"
+                            android:text="Out-time :"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Small.Inverse"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/out_time"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="end"
+                            android:paddingBottom="5dp"
+                            android:paddingTop="5dp"
+                            android:text="Test"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Small.Inverse"
+                            android:textSize="12sp" />
+
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:gravity="center">
+
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="start"
+                            android:paddingBottom="5dp"
+                            android:paddingTop="5dp"
+                            android:text="Worked Hours :"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Small.Inverse"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/workours"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="end"
+                            android:paddingBottom="5dp"
+                            android:paddingTop="5dp"
+                            android:text="Test"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Small.Inverse"
+                            android:textSize="12sp" />
+
+
+                    </TableRow>
+
+
+                </TableLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/nodata"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="There is no data"
+                    android:textColor="@color/black" />
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

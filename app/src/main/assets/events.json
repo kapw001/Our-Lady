@@ -1,0 +1,52 @@
+{
+  "jsonrpc": "2.0",
+  "id": null,
+  "result": {
+    "login": "hemandh.kumar@gmail.com",
+    "password": "Pappaya@2018",
+    "home_works": [
+      {
+        "date": "2018-04-13",
+        "attachment_file_ids": [
+          {
+            "attach_id": 1650,
+            "mimetype": "image/png",
+            "name": "Screenshot from 2018-01-25 15-55-28.png",
+            "store_fname": "42/42745a93616d69d44f6326bb540d32f25e52364f"
+          },
+          {
+            "attach_id": 1649,
+            "mimetype": "application/pdf",
+            "name": "Haltermanpythonbook.pdf",
+            "store_fname": "2e/2eff47fe42731df5e15f650e07dfe03c8a757a0d"
+          }
+        ],
+        "subject_id": 1,
+        "description": "<p>1. Write the OOP Concepts</p><p>2. Explain about MVC Model</p><p>3. Explain about Java Inheritance<br></p>",
+        "subject_name": "Java Programming"
+      }
+    ],
+    "user_type": "Parent",
+    "circulars": [
+      {
+        "date": "2018-04-14",
+        "attachment_file_ids": [
+          {
+            "attach_id": 1650,
+            "mimetype": "image/png",
+            "name": "Screenshot from 2018-01-25 15-55-28.png",
+            "store_fname": "42/42745a93616d69d44f6326bb540d32f25e52364f"
+          },
+          {
+            "attach_id": 1649,
+            "mimetype": "application/pdf",
+            "name": "Haltermanpythonbook.pdf",
+            "store_fname": "2e/2eff47fe42731df5e15f650e07dfe03c8a757a0d"
+          }
+        ],
+        "description": "<p>This is to inform that, coming Saturday (14/04/2018) is working day.</p><p><br></p><p>Note : On Saturday (14/04/2018) we follow \"Monday Time Table\".<br></p>",
+        "subject": "Working Day Notification"
+      }
+    ]
+  }
+}

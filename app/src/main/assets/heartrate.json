@@ -1,0 +1,24 @@
+{
+  "jsonrpc": "2.0",
+  "id": null,
+  "result": {
+    "student_id": 247,
+    "login": "shiv",
+    "password": "shiv",
+    "user_type": "Parent",
+    "heartrate_list": [
+      {
+        "heartrate": 60,
+        "time": "2018-05-08 13:11:50"
+      },
+      {
+        "heartrate": 66,
+        "time": "2018-05-08 13:12:50"
+      },
+      {
+        "heartrate": 157,
+        "time": "2018-05-08 14:23:00"
+      }
+    ]
+  }
+}

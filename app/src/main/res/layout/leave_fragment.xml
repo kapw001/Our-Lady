@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="60dp"
+    app:emptyBackgroundColor="#FFFFFF"
+    app:errorBackgroundColor="#FFFFFF"
+    app:errorButtonBackgroundColor="@color/red"
+    app:errorButtonTextColor="#FFFFFF"
+    app:errorContentTextSize="6sp"
+    app:errorImageWidth="80dp"
+    app:errorTitleTextSize="8sp"
+    app:loadingBackgroundColor="#FFFFFF"
+    app:loadingProgressBarColor="@color/colorPrimary">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/white"
+            android:clipToPadding="false">
+
+        </android.support.v7.widget.RecyclerView>
+
+        <TextView
+            android:id="@+id/error"
+            style="@style/Base.TextAppearance.AppCompat.Small.Inverse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="There is no data available "
+            android:visibility="gone" />
+    </RelativeLayout>
+</LinearLayout>

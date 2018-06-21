@@ -1,0 +1,223 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:buttonStyle">@style/ButtonAppTheme</item>
+        <!--<item name="android:background">@drawable/gradent</item>-->
+        <!-- Support library compatibility -->
+        <!--<item name="background">@drawable/gradent</item>-->
+        <!--<item name="android:windowBackground">@color/white</item>-->
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="actionBarStyle">@style/MyActionBar</item>
+    </style>
+
+
+    <!-- ActionBar styles -->
+    <style name="MyActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/ab_gradient</item>
+        <!-- Support library compatibility -->
+        <item name="background">@drawable/ab_gradient</item>
+    </style>
+
+
+    <style name="spinner_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/gradient_spinner</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:popupBackground">#DFFFFFFF</item>
+    </style>
+
+
+    <style name="dialog_animation" parent="Theme.AppCompat.Light.Dialog.Alert">
+
+        <!--<item name="android:windowEnterAnimation">@anim/slide_in_left</item>-->
+
+        <!--<item name="android:windowExitAnimation">@anim/slide_out_right</item>-->
+
+        <item name="android:windowEnterAnimation">@anim/fadein</item>
+
+        <item name="android:windowExitAnimation">@anim/fadeout</item>
+
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppThemeEdit" parent="Theme.AppCompat">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:buttonStyle">@style/ButtonAppTheme</item>
+        <item name="colorControlActivated">@color/colorAccent</item>
+        <item name="colorControlHighlight">@color/colorAccent</item>
+        <item name="colorControlNormal">@color/colorPrimary</item>
+        <item name="android:textColorHint">@color/line2</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="actionBarStyle">@style/MyActionBar</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppThemeEditNoHighlight" parent="Theme.AppCompat">
+        <!-- Customize your theme here. -->
+
+        <item name="android:buttonStyle">@style/ButtonAppTheme</item>
+        <item name="colorControlActivated">@color/colorPrimary</item>
+        <item name="colorControlHighlight">@color/colorPrimary</item>
+        <item name="colorControlNormal">@color/colorPrimary</item>
+        <item name="android:textColorHint">@color/line2</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="actionBarStyle">@style/MyActionBar</item>
+    </style>
+
+    <style name="AppThemeRipple" parent="android:Theme.Material.Light.DarkActionBar">
+        <item name="android:colorControlHighlight">@color/colorPrimary</item>
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+    <style name="ButtonAppTheme" parent="android:Widget.Material.Button">
+        <item name="android:background">@drawable/rippleanimation</item>
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+
+    <style name="Widget.Design.TextInputLayout" parent="Theme.AppCompat">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+        <item name="colorControlNormal">@color/colorAccent</item>
+        <item name="colorControlActivated">@color/black</item>
+        <item name="colorControlHighlight">@color/colorPrimary</item>
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:textColorSecondary">@color/black</item>
+        <item name="hintTextAppearance">@style/AppTheme.TextFloatLabelAppearance</item>
+        <item name="android:windowContentTransitions">true</item>
+        <!--<item name="errorTextAppearance">@style/AppTheme.TextErrorAppearance</item>-->
+        <!--<item name="counterTextAppearance">@style/TextAppearance.Design.Counter</item>-->
+        <!--<item name="counterOverflowTextAppearance">@style/TextAppearance.Design.Counter.Overflow-->
+        <!--</item>-->
+    </style>
+
+    <style name="AppTheme.TextFloatLabelAppearance" parent="TextAppearance.Design.Hint">
+        <!-- Floating label appearance here -->
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+    <style name="AppTheme.TextErrorAppearance" parent="TextAppearance.Design.Error">
+        <!-- Error message appearance here -->
+        <item name="android:textColor">#ff0000</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+
+    <style name="TextStyle" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="TextStyle1" parent="Theme.AppCompat.NoActionBar">
+
+    </style>
+
+    <style name="FullscreenTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentTransitions">true</item>
+        <!--<item name="android:actionBarStyle">@style/FullscreenActionBarStyle</item>-->
+        <!--<item name="android:windowActionBarOverlay">false</item>-->
+        <!--<item name="android:windowBackground">@null</item>-->
+        <!--<item name="metaButtonBarStyle">?android:attr/buttonBarStyle</item>-->
+        <!--<item name="metaButtonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>-->
+    </style>
+
+    <style name="FullscreenActionBarStyle" parent="android:Widget.Holo.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="myDialog" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+
+    <style name="MyTextColor" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+
+    </style>
+
+    <style name="TestMyThe" parent="AppTheme" />
+
+    <!--xml-->
+    <style name="AppTheme.Widget.CustomButton" parent="android:Widget.Material.Button">
+        <!-- This also affects to android.widget.Button -->
+        <item name="android:colorControlHighlight">#ff33b5e5</item>
+        <item name="android:colorButtonNormal">#80ffffff</item>
+
+        <!-- for Jellybean & Kitkat -->
+        <!-- This not affect to android.widget.Button -->
+        <item name="colorControlHighlight">#ff33b5e5</item>
+        <item name="colorButtonNormal">#80ffffff</item>
+    </style>
+
+    <!--xml-->
+    <style name="AppTheme.Widget.CustomButton1" parent="android:Widget.Material.Button">
+        <!-- This also affects to android.widget.Button -->
+        <item name="android:colorControlHighlight">#ff3F51B5</item>
+        <item name="android:colorButtonNormal">#80ffffff</item>
+
+        <!-- for Jellybean & Kitkat -->
+        <!-- This not affect to android.widget.Button -->
+        <item name="colorControlHighlight">#ff3F51B5</item>
+        <item name="colorButtonNormal">#80ffffff</item>
+    </style>
+
+    <style name="ContentText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">5dip</item>
+    </style>
+
+    <style name="RadioButton1">
+        <item name="android:textColor">@drawable/tabselector</item>
+        <item name="android:minHeight">33dp</item>
+        <item name="android:minWidth">70dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:button">@null</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+    </style>
+
+    <style name="MySpecialErrorView">
+        <item name="ev_imageSize">120dp</item>
+        <item name="ev_retryColor">@color/colorPrimary</item>
+    </style>
+
+
+    <style name="NavigationViewOwnStyle">
+        <item name="android:textStyle">normal</item>
+        <item name="android:listPreferredItemHeightSmall">40dp</item><!--item height-->
+        <item name="android:textSize">30sp</item> <!--item text size-->
+    </style>
+
+</resources>

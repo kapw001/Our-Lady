@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <!--<item-->
+        <!--android:id="@+id/circular"-->
+        <!--android:checkable="false"-->
+        <!--android:checked="false"-->
+        <!--android:enabled="true"-->
+        <!--android:icon="@drawable/ic_dvr_24px"-->
+        <!--android:title="@string/title_circular"-->
+        <!--app:showAsAction="always|withText" />-->
+
+    <item
+        android:id="@+id/attendance"
+        android:checkable="false"
+        android:checked="false"
+        android:enabled="true"
+        android:icon="@drawable/ic_event_note_24px"
+        android:title="@string/title_attendance"
+        app:showAsAction="always|withText" />
+
+    <item
+        android:id="@+id/homework"
+        android:checkable="false"
+        android:checked="false"
+        android:enabled="true"
+        android:icon="@drawable/ic_receipt_24px"
+        android:title="@string/title_homework"
+        app:showAsAction="always|withText" />
+
+    <!--<item-->
+        <!--android:id="@+id/heartrate"-->
+        <!--android:checkable="false"-->
+        <!--android:checked="false"-->
+        <!--android:enabled="true"-->
+        <!--android:icon="@mipmap/ic_heart"-->
+        <!--android:title="@string/title_heartrate"-->
+        <!--app:showAsAction="always|withText" />-->
+
+    <!--<item-->
+        <!--android:id="@+id/whereismystudent"-->
+        <!--android:checkable="false"-->
+        <!--android:checked="false"-->
+        <!--android:enabled="true"-->
+        <!--android:icon="@drawable/ic_location_searching_black_24dp"-->
+        <!--android:title="@string/title_whereismystudent"-->
+        <!--app:showAsAction="always|withText" />-->
+
+</menu>
